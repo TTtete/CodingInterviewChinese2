@@ -1,0 +1,8 @@
+void Init_Stack1(void)
+{
+	*head1 =  malloc(sizeof(struct StackNode));
+	*tail1 = malloc(sizeof(struct StackNode));
+	*head1 = *tail1 = NULL;
+}
+
+//在里面不出来，运行该段程序后，后面的程序没有接着运行。
